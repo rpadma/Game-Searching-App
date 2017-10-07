@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.etuloser.padma.rohit.homework5.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/edxsearch" />
+
+    <Button
+        android:text="@string/btnsearch"
+        android:textColor="@color/colorwhite"
+        android:background="@color/customcolor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="38dp"
+        android:layout_marginEnd="38dp"
+        android:id="@+id/butsearch"
+        android:layout_alignBottom="@+id/edxsearch"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="SearchClick"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="@drawable/box"
+        android:layout_height="420dp"
+        android:layout_below="@+id/edxsearch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/sclayout"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/main_layout"
+            />
+    </ScrollView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/sclayout"
+    android:gravity="center"
+    android:layout_marginTop="15dp"
+    >
+    <Button
+        android:text="@string/btnGo"
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/butgo"
+        android:gravity="center"
+        android:onClick="GoClick"
+ />
+</LinearLayout>
+</RelativeLayout>

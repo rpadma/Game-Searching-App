@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">The Games DB</string>
+    <string name="btnsearch">Search</string>
+    <string name="btnGo">Go</string>
+    <string name="gamedetailslbl">Game Details</string>
+    <string name="WebViewlbl">WebView</string>
+    <string name="similatgamelbl">Similar Games</string>
+    <string name="btnplaytrailer">Play Trailer</string>
+    <string name="btnsimilargames">Similar Games</string>
+    <string name="btnfinish">Finish</string>
+    <string name="lbloverview">Overview:</string>
+    <string name="title_activity_similar_games">SimilarGamesActivity</string>
+
+</resources>
